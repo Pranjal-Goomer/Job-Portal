@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+nav {
+    margin: 15px 0;
+}
+
+nav a {
+    color: #ffdd57;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#intro a {
+    color: white;
+    text-decoration: none;
+    margin: 0 6px;
+}
+
+#intro a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+#banner {
+    text-align: center;
+}
+
+#banner img {
+    margin-top: 15px;
+    max-width: 100%;
+}
+
+#jobs form {
+    background-color: white;
+    padding: 25px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#jobs p {
+    margin-bottom: 15px;
+}
+
+#jobs label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#jobs input,
+#jobs select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#jobs input:focus,
+#jobs select:focus {
+    outline: none;
+    border-color: #1e3a8a;
+}
+
+#jobs button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#jobs button:hover {
+    background-color: #162c6b;
+}
+
+#Browse ul {
+    list-style: none;
+}
+
+#Browse li {
+    margin: 10px 0;
+}
+
+#Browse a {
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+#Browse a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+article h3 {
+    margin-bottom: 10px;
+}
+
+article p {
+    margin: 5px 0;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #1e3a8a;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+article a:hover {
+    background-color: #162c6b;
+}
+
+#courses ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#courses li {
+    margin-bottom: 10px;
+}
+
+#courses a {
+    text-decoration: none;
+    color: #1e3a8a;
+}
+
+#courses a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+}

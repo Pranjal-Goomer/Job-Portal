@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Job Portal - Find your dream job from 5+ lakh opportunities">
     <title>Career Connect</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body id="home">
@@ -20,7 +21,7 @@
         <a href="#courses">Courses</a>
     </nav>
 
-    <p>
+    <p id="intro">
         <a href="login.html">Login</a> |
         <a href="register.html">Register</a>
     </p>
@@ -30,7 +31,7 @@
 
 <main>
 
-    <section >
+    <section id="banner">
         <h2>Find Your Perfect Job</h2>
         <p>Explore 5+ lakh job opportunities across India</p>
         <img src="sale.png" alt="Job portal banner" width="600">
@@ -42,13 +43,12 @@
         <h2>Search Jobs</h2>
         <form>
             <p>
-                <label>Skills:</label>
-                <input type="text" placeholder="Developer, Analyst, Company">
+                <label for="Skills">Skills:</label>
+                <input type="text" id="Skills" placeholder="Developer, Analyst, Company">
             </p>
-
             <p>
-                <label>Experience:</label>
-                <select>
+                <label for="Experience">Experience:</label>
+                <select id="Experience" name="Experience">
                     <option>Select</option>
                     <option>Fresher</option>
                     <option>1-3 years</option>
@@ -67,7 +67,7 @@
 
     <hr>
 
-    <section>
+    <section id="Browse">
         <h2>Browse by Category</h2>
 
         <ul>
@@ -147,6 +147,8 @@
 
 <footer>
     <p>© 2026 Job Portal. All rights reserved.</p>
+    <p>Contact us: support@jobportal.com</p>
+    <p>Phone no.: +91 9876543210</p>
 </footer>
 
 </body>
