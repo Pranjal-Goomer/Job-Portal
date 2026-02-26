@@ -41,7 +41,7 @@
 
     <section id ="jobs">
         <h2>Search Jobs</h2>
-        <form>
+        <form id="searchForm">
             <p>
                 <label for="Skills">Skills:</label>
                 <input type="text" id="Skills" placeholder="Developer, Analyst, Company">
@@ -58,14 +58,59 @@
 
             <p>
                 <label>Location:</label>
-                <input type="text" placeholder="City">
+                <input type="text" id="Location" placeholder="City">
             </p>
 
             <button type="submit">Search</button>
         </form>
+
+        <div id="searchResults"></div>
     </section>
 
     <hr>
+
+    <hr>
+
+    <section id="post-job">
+        <h2>Post a Job</h2>
+
+        <form id="jobForm">
+            <p>
+                <label>Job Title:</label>
+                <input type="text" id="jobTitle" required>
+            </p>
+
+            <p>
+                <label>Company Name:</label>
+                <input type="text" id="companyName" required>
+            </p>
+
+            <p>
+                <label>Location:</label>
+                <input type="text" id="jobLocation" required>
+            </p>
+
+            <p>
+                <label>Experience:</label>
+                <select id="jobExperience" required>
+                    <option value="">Select</option>
+                    <option>Fresher</option>
+                    <option>1-3 years</option>
+                    <option>3-5 years</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Description:</label>
+                <textarea id="jobDescription" required></textarea>
+            </p>
+
+            <button type="submit">Post Job</button>
+        </form>
+
+        <div id="jobCardsContainer"></div>
+    </section>
+
 
     <section id="Browse">
         <h2>Browse by Category</h2>
@@ -150,6 +195,8 @@
     <p>Contact us: support@jobportal.com</p>
     <p>Phone no.: +91 9876543210</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
