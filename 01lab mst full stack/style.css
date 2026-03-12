@@ -1,0 +1,20 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: bisque;
+}
+
+input, select, button{
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(219, 252, 253);
+}
+
+li{
+    margin: 8px 0;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
